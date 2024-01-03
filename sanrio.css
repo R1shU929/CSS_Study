@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0%;
+}
+.header{
+    height:100px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header > div:first-child{
+    margin-left: 30px;
+    cursor: pointer;
+}
+.header > div:last-child
+{
+}
+.logoimg{
+    width:190px;
+}
+.right {
+    display:flex;
+    list-style-type: none;
+
+}
+.right > li{
+    margin-right: 70px;
+    cursor: pointer;
+}
+.mainimg{
+    width:100%;
+}
+.redBox{
+    background-color: brown;
+    height: 1000px;
+}
