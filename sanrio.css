@@ -1,39 +1,150 @@
-*{
-    margin:0;
-    padding: 0%;
+* {
+  margin: 0;
+  padding: 0%;
+  text-decoration: none;
 }
-.header{
-    height:100px;
-    position: sticky;
-    top: 0;
-    background-color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  height: 100px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.header > div:first-child{
-    margin-left: 30px;
-    cursor: pointer;
+.header > div:first-child {
+  margin-left: 30px;
+  cursor: pointer;
 }
-.header > div:last-child
-{
+.header > div:last-child {
 }
-.logoimg{
-    width:190px;
+.logoimg {
+  width: 190px;
 }
 .right {
-    display:flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
+}
+.right > li {
+  margin-right: 70px;
+  cursor: pointer;
+}
+.right > li > a {
+  color: black;
+}
+.mainimg {
+  width: 100%;
+}
+.character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.character > h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.character-btn {
+  background-color: white;
+  padding: 15px 50px;
+  border-radius: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.character-btn:hover {
+  background-color: black;
+  color: white;
+}
+.card {
+  border: 1px solid rgba(128, 128, 128, 0.312);
+  width: 290px;
+  text-align: center;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  margin: 0 10px 20px;
+}
+.card > img {
+  width: 290px;
+  margin-bottom: 10px;
+  border-radius: 20px 20px 0 0;
+}
+.img_ko {
+  padding-top: 10px;
+  font-size: 23px;
+}
+.img_en {
+  color: gray;
+  font-size: 13px;
+  opacity: 0.4;
+}
 
+.box {
+  padding-top: 50px;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-.right > li{
-    margin-right: 70px;
-    cursor: pointer;
+.Company {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 500px;
+  border: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.mainimg{
-    width:100%;
+.Company > h1 {
+  font-size: 45px;
+  font-weight: 500;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-.redBox{
-    background-color: brown;
-    height: 1000px;
+.box_2 {
+  padding: 50px;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+.card_2 > img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.card_2 {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more-btn {
+  background-color: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.503);
+  width: 110px;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 20px 20px;
+  cursor: pointer;
+}
+.more-btn:hover {
+  background-color: black;
+  color: white;
+}
+.title {
+  padding-top: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 200px;
+  text-align: center;
+}
+.content {
+  width: 300px;
+  margin-top: 20px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
