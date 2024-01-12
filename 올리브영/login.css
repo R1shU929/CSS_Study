@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0%;
+  text-decoration: none;
+  font-family: "Gothic A1", sans-serif;
+}
+.page_out {
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+}
+.page_1 {
+  width: 50%;
+  height: 1000px;
+  background-color: white;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header > p {
+  margin-top: 6px;
+  font-size: 18px;
+  color: #888;
+}
+.header {
+  width: 53%;
+  height: 70px;
+  margin-top: 100px;
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.header > h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #000;
+}
+
+.login_ID > input {
+  border: none;
+  border: 1px solid #d0d0d0;
+  width: 450px;
+  padding-left: 5px;
+  font-weight: 500;
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+  margin-top: 15px;
+  padding: 20px;
+}
+
+.login_PW > input {
+  border: none;
+  border: 1px solid #d0d0d0;
+  width: 450px;
+  padding-left: 5px;
+  font-weight: 500;
+  border-radius: 0 0 5px 5px;
+  padding: 20px;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #9bce26;
+}
+
+.find {
+  margin-top: 12px;
+  width: 62%;
+  display: flex;
+  justify-content: space-between;
+}
+.find_left {
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.find_left > input {
+  margin: 10px 8px 10px 0px;
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #9bce26;
+}
+
+label {
+  font-size: 14px;
+}
+.find_right {
+  color: #999;
+  font-size: 14px;
+  margin-top: 12px;
+}
