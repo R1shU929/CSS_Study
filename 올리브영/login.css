@@ -95,3 +95,55 @@ label {
   font-size: 14px;
   margin-top: 12px;
 }
+.green {
+  width: 500px;
+  height: 60px;
+  font-size: 23px;
+  background-color: #9bce26;
+  color: white;
+  margin-top: 10px;
+  border: none;
+}
+.kakao {
+  margin-top: 10px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #d0d0d0;
+}
+.kakao_left {
+  font-size: 12px;
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+.kakao_right > img {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.cj_one {
+  width: 510px;
+  margin-top: 8px;
+}
+.cj_bottom_left {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #777;
+  font-weight: 600;
+}
+.cj_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.cj_top > img {
+  width: 170px;
+}
+.cj_btn {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+}
